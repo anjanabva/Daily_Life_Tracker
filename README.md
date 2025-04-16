@@ -50,15 +50,75 @@ It’s part of my DBMS course, so I also made sure to apply database design conc
 
 ---
 
-🔍 Role of the database
+# Role of Database in Daily Life Tracker
 
-1. Stores all entries per user in a structured format
-2. Helps run CRUD operations (add/edit/delete entries)
-3. Makes it easy to filter/search based on mood, category, date, etc.
-4. Supports SQL queries to generate reports like:
-   - Monthly expenses by category
-   - Most common moods
-   - Average sleep quality, etc.
+This project uses a database as the backbone to manage and organize all user-related data across various modules. Below are the key roles the database plays in the Daily Life Tracker application:
+
+---
+
+### 1. Stores Data
+
+The database stores all essential data including:
+
+- User information  
+- Diary entries  
+- Expense records  
+- Sleep logs  
+- Entertainment tracking data  
+
+---
+
+### 2. Organizes Information in a Structured Form
+
+Each type of data is stored in its own table. For example:
+
+- `users` for user info  
+- `diary_entries` for daily logs  
+- `expenses` for spending details  
+- `sleep_tracker` for sleep records  
+- `entertainment_tracker` for entertainment activities  
+
+This structure keeps the data clean, organized, and easy to query.
+
+---
+
+### 3. Supports CRUD Operations
+
+The database supports:
+
+- **Create:** Add new entries via the GUI  
+- **Read:** View past records  
+- **Update:** Edit existing information  
+- **Delete:** Remove unwanted entries  
+
+---
+
+### 4. Enables Insights
+
+Using SQL queries and visualization tools, the app can extract insights like:
+
+- Average sleep duration  
+- Mood trends over time  
+- Spending patterns  
+- Entertainment frequency  
+
+These insights help users understand and improve their daily habits.
+
+---
+
+### 5. Maintains Data Integrity
+
+The database ensures:
+
+- Data consistency across modules  
+- Valid data entries (e.g., valid dates, amounts)  
+- Proper linking of entries to the correct users  
+
+This prevents errors and maintains reliable app performance.
+
+---
+
+> The database is crucial in making the Daily Life Tracker a meaningful, data-driven personal assistant.
 
 ---
 
@@ -75,8 +135,8 @@ It’s part of my DBMS course, so I also made sure to apply database design conc
 
 🧑‍💻 About me
  
-Part of my Course: CS2008 Database systems
-Team Name : CraftHouse
-Number of members : 1
-Name : Anjana B Va
-Roll no. : CS23B1098
+- Part of my Course: CS2008 Database systems
+- Team Name : CraftHouse
+- Number of members : 1
+- Name : Anjana B Va
+- Roll no. : CS23B1098
