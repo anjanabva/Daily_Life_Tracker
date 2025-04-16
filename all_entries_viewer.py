@@ -154,7 +154,7 @@ def open_all_entries_viewer(user_id):
     def add_date_filter(base, conditions, params):
         add_range_filter(base, conditions, params)
 
-    # --- UI ---
+    # UI :
     tk.Label(win, text="All Entries Viewer", font=HEADER_FONT, bg="lavender").pack(fill=tk.X, pady=10)
 
     top_frame = tk.Frame(win, bg="white")
