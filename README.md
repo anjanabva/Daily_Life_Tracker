@@ -35,7 +35,7 @@ It’s part of my DBMS course, so I also made sure to apply database design conc
 - **Python** – Tkinter for GUI
 - **MySQL** – Database backend
 - **Matplotlib** – Charts and insights
-- Other libraries – `datetime`, `mysql.connector`, `tkinter.messagebox`
+- Other libraries – `datetime`, `mysql.connector`, `tkinter`, `FigureCanvasTkAgg`.
 
 ---
 
